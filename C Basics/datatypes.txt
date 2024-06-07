@@ -1,0 +1,53 @@
+Basic Data Types
+
+-> int	2 or 4 bytes
+-> float	4 bytes
+-> double	8 bytes
+-> char	1 byte
+
+Format Specifiers
+
+%d or %i	int	
+%f or %F	float	
+%lf	double	
+%c	char	
+%s	Used for strings (text)
+
+-----The char Type ----
+The char data type is used to store a single character. 'c' 'C'
+
+char myGrade = 'A';
+printf("%c", myGrade);
+
+Alternatively, if you are familiar with ASCII, 
+you can use ASCII values to display certain characters. Note that these values are not surrounded by quotes ('')
+
+char a = 65, b = 66, c = 67;
+printf("%c", a);
+printf("%c", b);
+printf("%c", c);
+
+Strings 
+
+char myText[] = "Hello";
+printf("%s", myText);
+
+----- Numeric Data Types -----
+
+int
+int myNum = 1000;
+printf("%d", myNum);
+
+float myNum = 5.75;
+printf("%f", myNum);
+
+double
+double myNum = 19.99;
+printf("%lf", myNum);
+
+The precision of float is six or seven decimal digits, while double variables have a precision of about 15 digits
+
+
+
+
+
